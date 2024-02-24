@@ -1,7 +1,7 @@
 # Youtube-Download
  Esse é um projeto desenvolvido em Customtkinter com Pytube e Pillow
 
- ##Como usar
+ ## Como usar
  
 1. Clone este repositório: `git clone https://github.com/yurilealdacruz/Youtube-Download.git`
 2. Instale as dependências
