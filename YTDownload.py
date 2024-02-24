@@ -7,6 +7,7 @@ from tkinter import *
 from customtkinter import *
 from PIL import Image, ImageTk
 from pytube import YouTube
+import webbrowser
 
 class Principal():
     def __init__(self, main=None):
@@ -24,13 +25,17 @@ class Principal():
         self.variavel.set('Selecione')
         self.combobox = CTkComboBox(main, values=["Vídeo", "Música"],
                                             command=self.opcao, variable=self.variavel)
+        
+        self.info = CTkButton(main, text='Clique para mais informações',command=self.info)
         self.titulo.pack(padx=5,pady=5)
         self.entrada_de_texto.pack(padx=5,pady=5)
         self.combobox.pack(padx=5,pady=5)
         self.botao_baixar.pack(padx=5,pady=5)
         self.opcao_label.pack()
+        self.info.pack(padx=5,pady=5)
         self.ctg = 0
-        
+    def info(self):
+        webbrowser.open('https://github.com/yurilealdacruz/Youtube-Download')
     def opcao(self,choice):
         self.opcao_str = self.opcao_str
         self.op = choice
