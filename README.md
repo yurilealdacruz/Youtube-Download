@@ -25,5 +25,5 @@
 
 ## Requisitos e Dependências
 1. pip install customtkinter
-2. pip install pytube
+2. pip install yt-dlp
 3. pip install pillow
