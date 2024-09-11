@@ -7,11 +7,6 @@
 2. Instale as dependências
 3. Execute o programa: `python YTDownload.py`
 
- Instale as bibliotecas:
- pip install Customtkinter
- pip install pytube
- pip install pillow
-
 # Interface Simples utilizando o CustomTkinter
 
 ### Tela para colar a URL do vídeo / Música
